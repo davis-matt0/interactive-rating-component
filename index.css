@@ -79,6 +79,7 @@ p {
   justify-content: center;
   align-items: center;
   background-color: hsl(213, 19%, 18%);
+  color: white;
   width: 3em;
   height: 3em;
   border-radius: 100%;
@@ -92,11 +93,12 @@ p {
   color: hsl(216, 12%, 8%);
 }
 
-.rating:active {
+.selected {
   background-color: hsl(25, 97%, 53%);
+  opacity: 100%;
 }
 
-button {
+.submit {
   width: 100%;
   background-color: hsl(25, 97%, 53%);
   color: hsl(216, 12%, 8%);
@@ -109,8 +111,8 @@ button {
   margin: 0;
 }
 
-button:hover,
-button:active {
+.submit:hover,
+.submit:active {
   background-color: white;
   cursor: pointer;
 }
