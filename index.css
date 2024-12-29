@@ -18,18 +18,21 @@ h1 {
 }
 
 p {
-  /* color: hsl(217, 12%, 63%); */
-  opacity: 60%;
-  font-weight: 200;
+  color: hsl(217, 12%, 63%);
+  font-weight: 500;
 }
 
 .card {
   background: linear-gradient(hsl(213, 19%, 18%), hsl(213, 14%, 12%));
   width: 90%;
-  margin: 10em auto;
+  margin: 10em auto 2.5em auto;
   border-radius: 1.5em;
   padding: 3em 1em;
   box-shadow: 5px 5px 20px hsl(0, 0%, 1%);
+}
+
+.card-confirmation-state {
+  text-align: center;
 }
 
 @media (min-width: 500px) {
@@ -117,10 +120,29 @@ p {
   cursor: pointer;
 }
 
+.rating-confirmation {
+  background-color: hsl(213, 19%, 18%);
+  width: max-content;
+  margin: 1.5em auto 2em auto;
+  border-radius: 1.5em;
+}
+
+.rating-confirmation-text {
+  color: hsl(25, 97%, 53%);
+  opacity: 95%;
+  padding: 0.5em 1em;
+}
+
+.thank-you-message {
+  margin-bottom: 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 0;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
